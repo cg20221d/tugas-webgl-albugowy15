@@ -5,11 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
 		<title>Tugas WebGL #1</title>
 	</head>
-	<body onload="main()">
-		<div class="container">
-			<canvas id="glcanvas" width="1280" height="720">WebGL goes here</canvas>
+	<body onload="main()" class="bg-black">
+		<div class="grid grid-cols-2 justify-center p-3 mx-auto w-fit items-center">
+			<canvas id="canvas_1" width="400" height="400">WebGL goes here</canvas>
+			<canvas id="canvas_2" width="400" height="400">WebGL goes here</canvas>
+			<canvas id="canvas_3" width="400" height="400">WebGL goes here</canvas>
+			<canvas id="canvas_4" width="400" height="400">WebGL goes here</canvas>
 		</div>
 
 		<!-- This is the bulk of the actual WebGL stuff -->
